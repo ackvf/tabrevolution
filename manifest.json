@@ -1,15 +1,14 @@
 {
-	"name": "Tab Revolution",
+	"name": "Tab Revolution Q",
 	"short_name": "TR",
 	"description": "Tab Revolution allows you to have WORKING tabs in Chrome fullscreen mode!",
-	"version": "1.1.5",
-	"author": "Los Admins",
+	"version": "1.2.0",
+	"author": "Qwerty",
 	"icons": {
 		"16": "icons/16.png",
 		"48": "icons/48.png",
 		"128": "icons/128.png"
 	},
-	
 	"background": {
 		"persistent": true,
 		"scripts": ["jquery-3.0.0.js", "back.js"]

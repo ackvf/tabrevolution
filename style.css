@@ -1,8 +1,5 @@
 .tr_reset{
     all: initial !important;
-    * {
-        all: unset !important;
-    }
 }
 
 div#tr{
@@ -13,12 +10,14 @@ div#tr{
     width: 100vw !important;
     max-width: 100vw !important;
     z-index: 100000000000 !important;
-    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: all 0.2s ease !important;
+    opacity: 0 !important;
 }
 
 div#tr:hover{
     top: 0px !important;
+    opacity: 0.5 !important;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.5) !important;
 }
 
 div#tr.tr_hover{
